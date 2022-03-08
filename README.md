@@ -1,1 +1,2 @@
-# KYC_PROJECT
+# KYC_PROJECT written in solidity.
+
