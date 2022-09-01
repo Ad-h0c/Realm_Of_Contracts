@@ -1,0 +1,15 @@
+{
+  "name": "rentalnfts",
+  "version": "1.0.0",
+  "description": "Rental NFTs based on EIP-4907.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ad-h0c",
+  "license": "ISC",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.7.3",
+    "hardhat": "^2.10.2"
+  }
+}
