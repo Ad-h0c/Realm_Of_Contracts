@@ -2,6 +2,7 @@
 require("dotenv").config();
 require("@nomicfoundation/hardhat-chai-matchers");
 require("@nomicfoundation/hardhat-toolbox");
+require("@nomiclabs/hardhat-ethers");
 
 const { ALCHEMY_API_KEY, GOERLI_PRIVATE_KEY, YOUR_ETHERSCAN_API_KEY } =
   process.env;
