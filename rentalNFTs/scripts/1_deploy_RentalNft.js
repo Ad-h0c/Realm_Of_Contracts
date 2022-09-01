@@ -6,7 +6,7 @@ const main = async () => {
   console.log(
     `the balance of the deployer is: ${(await addr1.getBalance()).toString()}`
   );
-  const rentalnft = await ethers.getContractFactory("RentalNft");
+  const rentalnft = await ethers.getContractFactory("erc4907");
   const Rentalnft = await rentalnft.deploy("Sky", "Blue");
   await Rentalnft.deployed();
   console.log(`Address of the contract is: ${Rentalnft.address}`);

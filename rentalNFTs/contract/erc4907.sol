@@ -5,7 +5,7 @@ pragma solidity ^0.8.4;
 import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
 import "./IERC4907.sol";
 
-contract RentalNft is ERC721, IERC4907 {
+contract erc4907 is ERC721, IERC4907 {
 
     /// Logged when the user of an NFT is changed or expires is changed
     /// @notice Emitted when the `user` of an NFT or the `expires` of the `user` is changed
