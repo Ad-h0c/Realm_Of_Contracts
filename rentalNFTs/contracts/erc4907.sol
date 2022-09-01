@@ -44,6 +44,10 @@ contract erc4907 is ERC721, IERC4907 {
         return users[_tokenId].expires;
     }
 
+    function mint(uint256 tokenId, address to) public {
+        _mint(to, tokenId);
+    }
+
     function supportsInterface(bytes4 interfaceId)
         public
         view
